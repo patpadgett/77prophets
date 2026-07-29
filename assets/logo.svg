@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="77Prophets sigil">
+  <defs>
+    <linearGradient id="g" x1="70" y1="62" x2="448" y2="454" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DE0FF"/>
+      <stop offset="0.5" stop-color="#C7FF52"/>
+      <stop offset="1" stop-color="#FF4FD8"/>
+    </linearGradient>
+    <radialGradient id="r" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 256) rotate(90) scale(200)">
+      <stop stop-color="#101424"/>
+      <stop offset="1" stop-color="#05070B"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#r)"/>
+  <circle cx="256" cy="256" r="184" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.12)"/>
+  <circle cx="256" cy="256" r="142" fill="rgba(255,255,255,0.02)" stroke="url(#g)" stroke-width="8"/>
+  <path d="M162 168H350L258 344" stroke="url(#g)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M170 338H246" stroke="#C7FF52" stroke-width="18" stroke-linecap="round"/>
+  <path d="M272 338H352" stroke="#7DE0FF" stroke-width="18" stroke-linecap="round"/>
+  <path d="M160 216C160 187 184 164 214 164H300C332 164 355 188 355 216V230H160V216Z" fill="rgba(255,255,255,0.04)"/>
+  <text x="256" y="132" fill="rgba(255,255,255,0.38)" font-family="ui-sans-serif, system-ui, sans-serif" font-size="24" text-anchor="middle" letter-spacing="10">77</text>
+</svg>
