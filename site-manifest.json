@@ -1,0 +1,43 @@
+{
+  "project": "77prophets remix landing page",
+  "source_archive": "/home/pat/77prophets-asset-pack-2026-07-27",
+  "hero_assets": [
+    "01_78456604d5.jpg",
+    "08_714ebfcae6.jpg",
+    "11_0848725a1e.jpg",
+    "13_3f264e3a9a.jpg",
+    "15_513509aef8.jpg",
+    "18_b2beb90a15.jpg",
+    "22_7654c1fba0.jpg",
+    "24_8e5d7bba82.jpg"
+  ],
+  "gallery_assets": [
+    "06_ef3a09a09f.jpg",
+    "07_71e5654ec9.jpg",
+    "09_34dceb5f44.jpg",
+    "12_2a3b963a49.jpg",
+    "19_951641663b.jpg",
+    "20_6f04014e74.jpg",
+    "23_572b9ea2e8.jpg"
+  ],
+  "video_assets": [
+    "29_steev_6j5puYoTMLA.jpg",
+    "30_the-ketamine-krabwalk_bxplLXEEALA.jpg",
+    "31_heist_xlQehM2_czU.jpg",
+    "32_hold-on_D6_oYM5aXps.jpg",
+    "33_the-trap_KlqgyTKAqKk.jpg",
+    "35_lyfe-is-hard_1YP9dGUnox0.jpg",
+    "36_the-axe-of-honor_C5rVCTgXiss.jpg",
+    "37_digital-luv_9_iOsyFyYrw.jpg",
+    "38_the-world-is-in-jeopardy_os_yZgVyuOI.jpg",
+    "39_ghost-in-the-machine_Ih0XRfu945s.jpg",
+    "40_wander-promo-video_gyBCdFIRSbQ.jpg"
+  ],
+  "platforms": {
+    "spotify_artist": "https://open.spotify.com/artist/5S4yAG9F49QJhHSgjmHF4N",
+    "spotify_radio_playlist": "https://open.spotify.com/playlist/37i9dQZF1E4uQAyzOATcNs",
+    "apple_music_artist": "https://music.apple.com/us/artist/77prophets/6771765438",
+    "apple_music_station": "https://music.apple.com/us/station/77prophets/ra.a-6771765438",
+    "youtube_search": "https://www.youtube.com/results?search_query=77prophets"
+  }
+}
