@@ -1,0 +1,154 @@
+{
+  "title": "Choose the visual world for 77prophets.patpadgett.com",
+  "question": "The roll assigned The Outlaw Broadside. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "The Outlaw Broadside",
+      "kicker": "THE ROLL",
+      "lineage": "19th-century American letterpress job printing: wanted bills and revival proclamations",
+      "thesis": "Every release is a proclamation nailed to the post: wood type, black stock, gold and bone ink.",
+      "palette": ["#0b0907", "#d4a643", "#e9e2d1", "#9b2b1f"],
+      "materials": ["letterpress on black stock", "wood type", "tipped-in color plates", "stamped seal"],
+      "viewport": "One full-bleed bill. 77PROPHETS in wood type across the whole measure; the outlet line (Spotify, YouTube, Suno, Apple) set as a rule-bound line of type directly under it; the claymation promo as a tipped-in portrait plate on the right with the gold seal as its play stamp; the newest release as the lead notice on the left with its own play and its Suno style tag.",
+      "risk": "Reads as costume if the type is set timidly or the distress is sprayed on uniformly; every ink effect must belong to a specific object.",
+      "raised": [
+        {"from": "challenger-film", "raise": "Distress is authored per object: each plate gets its own ink squash and misregistration offset; no uniform grain overlay anywhere."},
+        {"from": "challenger-coffeehouse", "raise": "The bill's deckled paper edge is generated SVG geometry that regenerates at every width."},
+        {"from": "challenger-cityfold", "raise": "Each track row carries a spot tint sampled from its own cover."},
+        {"from": "challenger-rubberhose", "raise": "The one motion moment runs on a beat, not a curve: the seal press-stamps in stepped frames."},
+        {"from": "challenger-onebit", "raise": "Every rule and column snaps to one baseline grid at whole-pixel positions."},
+        {"from": "challenger-darkroom", "raise": "Covers emerge in one continuous reveal down the bill, never scattered fades."}
+      ],
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "77PROPHETS wood-type masthead", "x": 0, "y": 0, "w": 12, "h": 2, "accent": true},
+        {"label": "outlet line: Spotify · YouTube · Suno · Apple", "x": 0, "y": 2, "w": 12, "h": 1},
+        {"label": "lead notice: newest release + play + style tag", "x": 0, "y": 3, "w": 7, "h": 5},
+        {"label": "tipped-in promo plate (portrait video) + seal stamp", "x": 8, "y": 3, "w": 4, "h": 7, "accent": true},
+        {"label": "creed line", "x": 0, "y": 8, "w": 7, "h": 2}
+      ]},
+      "comp": ".impeccable/mocks/decision/assigned.webp"
+    },
+    {
+      "id": "model-pick",
+      "label": "The Firmament Chart",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Gleason's 1892 azimuthal world map and engraved celestial charts",
+      "thesis": "The catalog plotted as named stars beneath the dome he sings about.",
+      "palette": ["#06080f", "#c9a55a", "#e6dfcf", "#4d6b8a"],
+      "materials": ["copperplate engraving", "concentric ring text", "star figures"],
+      "viewport": "The engraved dome fills the first screen; releases sit as named stars along the rings; the play control is the zenith; outlets ring the horizon.",
+      "risk": "The literal reading of his creed and the card a reader could predict; a map-first page can also bury the play button under decoration.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "engraved dome (full viewport)", "x": 0, "y": 0, "w": 12, "h": 10},
+        {"label": "77PROPHETS on the horizon ring", "x": 2, "y": 8, "w": 8, "h": 1, "accent": true},
+        {"label": "play at zenith", "x": 5, "y": 3, "w": 2, "h": 2, "accent": true},
+        {"label": "outlets on horizon", "x": 0, "y": 9, "w": 12, "h": 1}
+      ]},
+      "comp": ".impeccable/mocks/decision/model-pick.webp"
+    },
+    {
+      "id": "challenger-film",
+      "label": "Hand-Processed 16mm",
+      "verdict": "competitive",
+      "lineage": "hand-processed film with scratches, uneven chemistry, and light leaks",
+      "thesis": "The catalog runs as one scratched strip; each release is a frame, the promo video the projected reel.",
+      "palette": ["#0e0e0e", "#9a9a94", "#e0731c", "#6b4a2a"],
+      "materials": ["film grain", "sprocket margins", "orange light leak"],
+      "viewport": "A vertical strip of frames down the page, edge codes in the margin, the newest release in the active, leaked frame.",
+      "case": "Fuses cleanly (he is a former media producer with a video channel; frames map to releases) but his listeners identify with outlaw Americana, not arthouse film.",
+      "risk": "Reads as an Instagram filter when the artifacts are not tied to specific frames.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "name + copy", "x": 0, "y": 0, "w": 5, "h": 10},
+        {"label": "film strip of release frames", "x": 5, "y": 0, "w": 5, "h": 10, "accent": true},
+        {"label": "frame metadata rail", "x": 10, "y": 0, "w": 2, "h": 10}
+      ]},
+      "comp": ".impeccable/mocks/decision/challenger-film.webp",
+      "hero": "https://impeccable.style/worlds/cards/cinema-cinematography-editing-hand-processed-film-bloom-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/cinema-cinematography-editing-hand-processed-film-bloom.webp"
+    },
+    {
+      "id": "challenger-rubberhose",
+      "label": "Rubber-Hose Cel",
+      "verdict": "declined",
+      "lineage": "early sound-era rubber-hose animation cels",
+      "thesis": "The project as a 1930s cartoon reel with iris wipes between gags.",
+      "palette": ["#111111", "#f4f1ea", "#8a8a8a"],
+      "materials": ["cel ink", "gray wash", "iris vignette"],
+      "viewport": "An oval iris opens on a bouncing scene; controls squash when pressed.",
+      "case": "Contradicts every cover in the catalog and his audience does not identify with Fleischer-era cartoons.",
+      "kept": "Motion on a beat, not a curve.",
+      "risk": "Whimsy against a sincere, dark catalog.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-rubber-hose-cel-hero.webp"
+    },
+    {
+      "id": "challenger-coffeehouse",
+      "label": "Village Coffeehouse Identity",
+      "verdict": "declined",
+      "lineage": "nineties earthy corporate identity: woodcut sun over torn kraft",
+      "thesis": "Releases as stations on a friendly kraft-paper map.",
+      "palette": ["#b5573a", "#6b6b3a", "#d9a441", "#c9b18c"],
+      "materials": ["recycled kraft", "woodcut mark", "torn edges"],
+      "viewport": "A woodcut mark over torn paper; warm humanist caps; sections stamped as you move.",
+      "case": "Terracotta and olive contradict the gold-on-black seal, and 'friendly organic' is the opposite of a prophet's register.",
+      "kept": "Torn edges generated responsively, never a fixed image.",
+      "risk": "Reads as a 1996 coffee bag.",
+      "hero": "https://impeccable.style/worlds/cards/brand-identity-canon-village-coffeehouse-identity-hero.webp"
+    },
+    {
+      "id": "challenger-cityfold",
+      "label": "Sleeping City Fold",
+      "verdict": "declined",
+      "lineage": "dream-surreal impossible worlds",
+      "thesis": "Neighborhoods fold into blankets; each district dreams its own weather.",
+      "palette": ["#0f1b3a", "#e8c15a", "#f3f0e6", "#4a7a8c"],
+      "materials": ["embroidered stars", "quilt seams", "night navy"],
+      "viewport": "A folded night city with stitched district names.",
+      "case": "Listeners do not identify with a dreaming city, and a catalog gains no clarity from map folds.",
+      "kept": "Each district its own hue: per-track tint from its cover.",
+      "risk": "Pure surrealism with no handle on the music.",
+      "hero": "https://impeccable.style/worlds/cards/dream-surreal-impossible-worlds-sleeping-city-fold-hero.webp"
+    },
+    {
+      "id": "challenger-onebit",
+      "label": "One-Bit Desktop",
+      "verdict": "declined",
+      "lineage": "early one-bit desktop, dithered grays and marching ants",
+      "thesis": "The catalog as overlapping windows on a black-and-white desktop.",
+      "palette": ["#000000", "#ffffff"],
+      "materials": ["ordered dither", "one-pixel chrome"],
+      "viewport": "Windows tile a desktop; the newest release is the front window.",
+      "case": "Dithering destroys the cinematic covers that carry this project, and the audience has no bond with 1984 desktops.",
+      "kept": "Whole-pixel discipline: one strict baseline grid.",
+      "risk": "Novelty over music.",
+      "hero": "https://impeccable.style/worlds/cards/medium-native-one-bit-desktop-hero.webp"
+    },
+    {
+      "id": "challenger-darkroom",
+      "label": "Darkroom Safelight Bay",
+      "verdict": "declined",
+      "lineage": "printing darkroom under amber safelight",
+      "thesis": "Covers emerge in the developer tray as you scroll.",
+      "palette": ["#c8701a", "#1a1108", "#8c8c8c", "#f0ece4"],
+      "materials": ["amber safelight", "wet silver prints", "enamel trays"],
+      "viewport": "Amber-washed stations in order; the newest print surfacing in the tray.",
+      "case": "The compose/expose/develop topology has no honest mapping onto a song catalog; identification is with photographers, not his listeners.",
+      "kept": "One continuous emergence for the reveal.",
+      "risk": "Amber wash flattens every cover to the same tone.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-darkroom-safelight-bay-hero.webp"
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": false},
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "The dark band site: big name, Spotify button, cover grid, executed at full craft.",
+    "palette": ["#0a0a0a", "#ffffff", "#1db954"],
+    "materials": ["cover grid", "streaming buttons", "dark hero"],
+    "viewport": "Name and tagline over a hero image, two buttons, a grid of covers below.",
+    "risk": "Indistinguishable from every other artist page, by design.",
+    "comp": ".impeccable/mocks/decision/canon.webp"
+  },
+  "steer": true
+}

@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "wide-tracking",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-27T05:00:35.554Z",
+        "reason": "Engraved verse on the dome band: 15px uppercase SVG textPath micro-label, not body text"
+      }
+    ]
+  }
+}
