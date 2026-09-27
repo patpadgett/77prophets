@@ -211,7 +211,7 @@ abbr[title]{text-decoration:none}
 .plate-title{font-size:1.25rem;line-height:1.3;margin-top:.55rem;display:flex;align-items:baseline;gap:.5rem}
 .plate-cap{font-size:.86rem;color:var(--bone-2);display:grid;gap:.05rem}
 .plate-cap span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.e-mark{font:700 .58em/1 var(--text);color:var(--night);background:var(--bone-2);padding:.15em .35em;letter-spacing:0;align-self:center;font-variant-numeric:normal}
+.e-mark{font-family:var(--text);font-weight:700;font-size:max(11px,.58em);line-height:1;color:var(--night);background:var(--bone-2);padding:.15em .35em;letter-spacing:0;align-self:center;font-variant-numeric:normal}
 
 .acts{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.3rem}
 .act{
