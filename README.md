@@ -35,7 +35,7 @@ Suno's embeddable player (`https://suno.com/embed/<id>`) opens in a fixed dock a
 
 ## Contact form
 
-Posts to FormSubmit (`formsubmit.co/agroman@gmail.com`) with a honeypot field; the first submission from the live domain triggers FormSubmit's one-time activation email to that inbox. If the POST fails, the page offers a `mailto:` fallback with the message pre-filled.
+Posts to FormSubmit ( (address entity-encoded in the markup; swap in the FormSubmit alias via `FORM_ENDPOINT` in build.py once the owner forwards it)) with a honeypot field; the first submission from the live domain triggers FormSubmit's one-time activation email to that inbox. If the POST fails, the page offers a `mailto:` fallback with the message pre-filled.
 
 ## Verification (2026-09-27)
 

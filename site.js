@@ -171,7 +171,8 @@
         status.className = 'f-status bad';
         const subject = encodeURIComponent('77Prophets site: new message');
         const body = encodeURIComponent(`From: ${form.elements.name.value} <${form.elements.email.value}>\nReason: ${form.elements.reason.value}\n\n${form.elements.message.value}`);
-        status.innerHTML = `The form could not send. <a href="mailto:agroman@gmail.com?subject=${subject}&body=${body}">Send it by email instead</a>.`;
+        const mail = form.dataset.mail || '';   // entity-decoded by the parser; never a literal in this file
+        status.innerHTML = `The form could not send. <a href="mailto:${mail}?subject=${subject}&body=${body}">Send it by email instead</a>.`;
       } finally { btn.disabled = false; }
     });
   }
